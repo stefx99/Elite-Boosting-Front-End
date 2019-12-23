@@ -1,0 +1,739 @@
+@import url('bootstrap.css');
+@import url('https://fonts.googleapis.com/css?family=Days+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,600');
+
+
+.header{
+	background-color: black;
+	width: 100%;
+	height: 100vh;
+}
+
+#bg-1 {
+	position: absolute;
+	float: right;
+	height: 100vh;
+	width: 100%;
+	padding-top: 6.5rem;
+}
+
+nav {
+	padding: 0px !important;
+	-webkit-box-shadow:inset 0 -1px 0 0 #1a1a1a;
+	box-shadow:inset 0 -1px 0 0 #1a1a1a;
+	-moz-box-shadow:inset 0px -1px 0px 0px #1a1a1a;
+
+}
+
+
+.last-c {
+	padding-right: 0px !important;
+	margin-right: 0px !important;
+}
+
+.navbar-brand {
+	padding: 0px !important;
+}
+
+.header .container .nav a img {
+	height: 6.25rem;
+	width: 6.25rem;
+}
+
+.nav-link {
+	font-size: 1rem;
+	color: #505562;
+	padding: 0.5rem 0;
+	font-family: "Days One";
+	font-weight: 200;
+}
+.nav-link:hover {
+	color: white;
+}
+
+.logoName {
+	font-family: 'Days One';
+	font-size: 2rem;
+	color: white;
+
+}
+#navbarNav {
+	height: 7.6rem !important;
+	float: right;
+	display: inline-block;
+	width: 100%;
+}
+.navig {
+	text-decoration: none;
+	display: inline-block;
+}
+.active {
+	color: white;
+}
+.nav-item {
+	margin: 0 1rem;
+}
+
+#navbarNav ul li {
+	display: inline-block;
+	position: relative;
+	height: 100%;
+	line-height: 6.25rem;
+}
+#navbarNav ul li:hover{
+
+  background:
+    linear-gradient(
+      to left, 
+      #5b0bd3 0%,
+      #0bd360 100%
+    )
+    left 
+    bottom
+    #000    
+    no-repeat; 
+  background-size:100% 1px ;
+}
+.Nactive {
+	background:
+    linear-gradient(
+      to left, 
+      #5b0bd3 0%,
+      #0bd360 100%
+    )
+    left 
+    bottom
+    #000    
+    no-repeat; 
+  background-size:100% 1px ;
+	color: white !important;
+}
+
+#navbarNav ul {
+	height: 100%;
+}
+
+.welcome-text {
+	color: white;
+	position: relative;
+}
+.header .container h1{
+	font-weight: 300;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+.welcome {
+	height: auto;
+	position: relative;
+	padding-top: 3rem;
+
+}
+#wel-paragraph {
+	color: #4e5260;
+	font-size: 1.2rem;
+}
+.boost-form {
+	position: relative;
+	margin-top: 3rem;
+}
+
+.g2a-button {
+	position: relative;
+	float: right;
+}
+
+.boost-form select {
+	background-color: transparent;
+	border-color:  transparent transparent #fff transparent;
+	margin-top: 5px;
+	font-size: 1.3rem;
+	height: 100%;
+}
+
+option {
+	background-color: #000;
+}
+
+#startBoost{
+	margin-left: 2rem;
+	background-color: rgba(29, 255, 131, 0.1);
+	color: rgba(29, 255, 131, 1);
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 1.2rem;
+	width: 21%;
+	height: 3.2rem;
+
+} 
+#startBoost span {
+	font-size: 1.2rem;
+	padding-left: 0.7rem;
+}
+
+#secondPage {
+	background-color: #fff;
+	height: auto;
+}
+#secondPage h2{
+	color: white;
+}
+
+#secTitle {
+	margin-top: 15vh;
+}
+
+
+#secTitle span {
+	font-weight: 600;
+}
+
+#secSubTitle {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #b0b5be;
+}
+
+#startBoost1 {
+	margin-left: 2rem;
+	font-family: Roboto;
+	font-weight: 600;
+	font-size: 1rem;
+	width: 175px;
+	height: 3rem;
+	display: block;
+}
+#startBoost1 span {
+	font-size: 1rem;
+	padding-left: 0.7rem;
+}
+#progress {
+	margin-top: 5rem;
+}
+
+.subTitle{
+	width: 100%;
+	height: auto;
+}
+
+#perk {
+	width: 100%;
+	height: auto;
+	margin-top: 7rem;
+	margin-bottom: 10rem;
+}
+#perks {
+	width: 60%;
+	height: auto;
+
+}
+
+#videoPlayer {
+	width: 40%;
+	height: auto;
+}
+
+.BGplayerDemo {
+	background:
+    linear-gradient(
+      to left, 
+      #5b0bd3 0%,
+      #0bd360 100%
+    )
+    left 
+    bottom
+    #000    
+    no-repeat; 
+}
+#playerDemoTitle {
+	font-weight: 600;
+	color: white;
+	font-size: 16pt;
+	line-height: 1;
+}
+
+#player {
+	background:
+    linear-gradient(
+      to left, 
+      #5b0bd3 0%,
+      #0bd360 100%
+    )
+    left 
+    bottom
+    #000    
+    no-repeat; 
+
+}
+
+#videoPlayerScreen {
+	padding: 0;
+}
+
+#iconTable {
+	height: 100%;
+}
+
+.perksSubtitles {
+	font-weight: 600;
+	color: #000;
+	font-size: 18pt;
+}
+
+.perksParagraph {
+	color: #b0b5be;
+	font-size: 13pt;
+	font-weight: 300;
+}
+
+.perksIcon {
+	margin-bottom: 10px;
+}
+
+#OurStatistics {
+	height: 29rem;
+	width: 100%;
+	background-color: #000;
+	background-image: url("/img/footer-bg.jpg");
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+#statHeading {
+	width: 65%;
+	height: auto;
+	margin-top: 6rem;
+	margin-bottom: 6rem;
+}
+
+#statHeading h2{
+	font-size: 38pt;
+	
+}
+#statHeading h2 span {
+	font-weight: 600;
+}
+
+#statHeading p {
+	color: #525665;
+	font-size: 1rem;
+}
+
+#statsTable {
+	padding: 0;
+	color: #525665;
+	font-size: 1.4rem;
+
+}
+#statsTable h2 {
+	color: white;
+	font-weight: 600;
+	font-size: 3rem;
+}
+
+.firstChild {
+	padding-left: 0;
+}
+
+#statButton {
+	width: 30%;
+}
+
+
+.startBoosting {
+	padding: 0.6rem 1rem;
+	font-weight: 600;
+	border: 0;
+}
+
+#whyUs {
+	height: auto;
+	width: 100%;
+	background-color: #fff;
+	margin-top: 5rem;
+}
+
+#why-left-side {
+	float: left;
+	width: 50%;
+	margin-top: 1rem;
+}
+
+#whyUsHeading h2 {
+	font-size: 2.3rem;
+	color: #000;
+}
+#whyUsHeading h2 span {
+	font-weight: 600;
+
+}
+
+#whyUsHeading {
+	border-bottom: 1px solid #e6e9ee;
+	padding-bottom: 1rem;
+}
+
+#why-left-side h4 {
+	font-weight: 600;
+	font-size: 1.7rem;
+	background:
+    linear-gradient(
+      to left, 
+      #5b0bd3 0%,
+      #0bd360 100%
+    )
+    left 
+    bottom
+    #000    
+    no-repeat; 
+    -webkit-background-clip: text;
+ 	 -webkit-text-fill-color: transparent;
+  	margin-top: 1rem;
+}
+
+#why-left-side p {
+	color: #a0a9b6;
+	font-size: 1rem;
+	margin-top: 1rem;
+}
+
+#why-left-side a {
+	margin-top: 2rem;
+}
+
+#why-right-side {
+	float: right;
+	width: 50%;
+	background-image: url("../img/overlay.png");
+}
+
+#why-us-bottom {
+	float: left;
+	margin-top: 6rem;
+}
+
+#why-us-bottom h2 {
+	font-size: 1.7rem;
+	font-weight: 600;
+	color: #000;
+
+}
+
+#WhyFirst {
+	width: 30%;
+
+}
+
+#WhyFirst a {
+	margin-top: 2rem;
+}
+#why-us-bottom h6 {
+	color: #5715cd;
+	font-size: 0.9rem;
+}
+
+
+#why-us-bottom h5 {
+	color: #000;
+	font-weight: 600;
+	font-size: 1.5rem;
+	margin-top: 1.7rem;
+}
+
+#why-us-bottom p {
+	font-size: 1rem;
+	color: #a0a9b6;
+}
+
+#smallText {
+	width: 80%;
+	margin: 0 auto;
+	font-size: 0.9rem;
+	padding-top: 1rem;
+	padding-bottom: 6rem;
+}
+
+#slide5 {
+	width: 100%;
+	height: auto;
+
+	background-color: #000;
+}
+
+#slide5 img {
+	width: 50%;
+	height: 100vh;
+	float: left;
+}
+
+#slide5-right-side {
+	width: 50%;
+	float: right;
+	padding-left: 2rem;
+	padding-top: 5rem;
+}
+
+
+#slide5-right-side h2 {
+	color: #fff;
+	font-size: 2.3rem;
+}
+
+
+
+#slide5-right-side h4 {
+	color: #fff;
+	font-size: 1.3rem;
+	padding-top: 2.5rem;
+}
+
+#slide5-right-side p {
+	color: #717781;
+}
+
+.btn-grey {
+	background-color: #e5e5e5;
+	color: #000;
+	padding: 0.6rem 1.5rem;
+	-webkit-transition: all 0.15s ease-in-out;
+	-moz-transition: all 0.15s ease-in-out;
+	-ms-transition: all 0.15s ease-in-out;
+	-o-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-out;
+}
+
+.btn-grey:hover {
+	background-color: #5715cd;
+	color: #fff;
+}
+
+#slide6 {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	float: left;
+	margin-top: 3rem;
+}
+.options{
+/*	#5b0bd3 0%,
+      #0bd360 100%*/
+      
+	padding: 2rem;
+	height: 32rem;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #a0a9b6;
+}
+
+#slide6 .container .row {
+	margin-top: 6rem;
+}
+
+#slide6 .container .row .col-3 {
+	flex: 0 0 100%;
+    max-width: 30%;
+	
+    
+}
+#slide6 .container .row .col-3:hover {
+    border-image: linear-gradient(to left, #5b0bd3 0%, #0bd360 100%);
+    border-image-slice: 1;
+    border-width: 1px;
+	
+}
+#slide6 .container .row .col-3 p{
+	color: #a0a9b6;
+}
+
+#slide6 .container .row .col-3 p:hover{
+	color: #525665;
+}
+.optionsBreak {
+	margin-bottom: 1rem;
+}
+
+.boostingSite {
+	height: 70px;
+}
+
+.optionsButton {
+	margin-top: 1rem;
+	margin-bottom: 1rem; 
+}
+#slide6 .container .row .col-3 span{
+	color: #000;
+}
+
+#feedback {
+	margin-top: 4rem;
+}
+#feedback-left-side {
+	width: 50%;
+	height: auto;
+	border-right: 1px solid #a0a9b6;
+	padding-right: 2rem;
+}
+
+#feedback-right-side {
+	width: 50%;
+	height: 100%;
+	padding-left: 4rem;
+
+
+}
+#footer-g2a {
+	margin-top: 2.5rem;
+	margin-bottom: 2.5rem; 
+}
+
+#comment {
+	width: 100%;
+}
+#comment p {
+	width: 85%;
+	color: #525665;
+}
+
+#comment p span {
+	color: #5715cd;
+}
+
+#feedback {
+	width: 100%;
+	height: 100%;
+	
+}
+
+#newsletterForm {
+	width: 100%;
+
+}
+#newsletterInput {
+	background: transparent; 
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #000;
+	color: #000;
+	width: 60%;
+	margin-right: auto;
+	margin-top: auto;
+}
+
+#newsletterButton {
+	width: 37%;
+	height: 3rem;
+	border: none;
+	font-weight: 600;
+}
+
+#footer {
+	float: left;
+	width: 100%;
+	background: #000;
+	margin-top: 6rem;
+	color: #525665;
+}
+
+#footerNav{
+	width: 100%;
+	border-bottom: 1px solid #212529;
+	height: 7.6rem;
+}
+
+#footer-left {
+	width: 35%;
+	float: left;
+	color: #fff;
+	height: 100%;
+}
+
+
+
+
+
+#footer-right {
+	width: 65%;
+	float: right;
+	height: 100%;
+}
+#footer-right ul {
+	height: 100%;
+}
+
+#footer-right ul li {
+	text-decoration: none;
+	display: inline-block;
+	color: #505562;
+	vertical-align: middle;
+	height: 100%;
+}
+
+
+#footer-right ul li a {
+	
+	line-height: 7.6rem;
+	padding: 0;
+}
+
+
+#footer-contacts {
+	width: 100%;
+	height: auto;
+}
+
+#footer-contacts table {
+	width: 50%;
+	margin-top: 2rem;
+}
+
+#footer-contacts table tr td {
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+#footer-contacts table tr td a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#footer-terms {
+	width: 100%;
+	height: 5rem; 
+	/*   */
+	margin-top: 5rem;
+	font-size: 0.9rem;
+}
+
+
+#terms-left {
+	width: 60%;
+	margin-bottom: 0;
+
+}
+
+#terms-right {
+	width: 40%;
+	height: 100%;
+
+
+}
+
+#terms-right ul li{
+	text-decoration: none;
+	display: inline-block;
+	padding-right: 1rem;
+	line-height: 5rem;
+	
+}
+#terms-right ul li a {
+	color: #505562;
+	text-decoration: none;
+}
+
+#terms-right ul li a:hover {
+	color: #fff;
+}
