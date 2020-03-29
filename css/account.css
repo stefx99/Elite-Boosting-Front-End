@@ -28,7 +28,8 @@ nav {
 
 .last-c {
 	padding-right: 0px !important;
-	margin-right: 0px !important;
+    margin-right: 0px !important;
+    border-right: none !important;
 }
 
 .navbar-brand {
@@ -151,5 +152,30 @@ nav {
     right: 0rem;
 }
 
+/* END of SECTION 1  */
+
+#orderProgress {
+    background-color: #5b0bd3;
+}
+
+#orderProgress .col-sm {
+    text-align: center;
+    margin: 3rem auto;
+    border-right: 1px solid #772aeb;
+
+}
 
 
+
+#orderProgress h5 {
+    color: #fff;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+#orderProgress p {
+    color: #b0b6be;
+}
+
+
+/* END OF PROGRESS BAR */
